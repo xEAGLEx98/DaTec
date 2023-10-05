@@ -6,3 +6,7 @@ footer{
 footer p{
     color:#f3f3f3;
 }
+
+.carousel-inner{
+    max-height: 30rem;
+}
