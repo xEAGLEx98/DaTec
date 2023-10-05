@@ -1,3 +1,4 @@
+/* FOOTER */
 footer{
     background-color: #1b2a4e;
     min-height: 70px;
@@ -7,6 +8,14 @@ footer p{
     color:#f3f3f3;
 }
 
+/*CAROUSEL*/
 .carousel-inner{
     max-height: 30rem;
+}
+
+/* MEdia querys */
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
 }
