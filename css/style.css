@@ -13,9 +13,26 @@ footer p{
     max-height: 30rem;
 }
 
+#img-equipo{
+    max-height: 30rem !important;
+    width: 80%;
+}
+
 /* MEdia querys */
 @media (max-width:768px){
-    #intro{
+    #intro, #equipo{
         width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (maxwidth:576px){
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 }
